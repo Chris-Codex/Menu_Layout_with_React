@@ -1,17 +1,20 @@
+.menu-container {
+  background-color: #eff6f9;
+  padding: 20px;
+}
+
+.our-menu {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
 .nav-item a {
   color: #e3b20b;
   text-decoration: none;
 }
 
-.underline {
-  text-decoration-line: underline;
-}
-
-.cont1 {
-  font-weight: bold;
-  font-size: 15px;
-}
-
 .content1_paragraph {
   font-size: 14px;
+  margin-top: -5px;
 }

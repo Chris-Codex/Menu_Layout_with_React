@@ -10,7 +10,7 @@ export default [
 
   {
     id: 2,
-    title: "Jones Wears Marshmello Printed Hoodie Black",
+    title: "Printed Hoodie Black",
     category: "Men Clothing",
     price: 202.0,
     img: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/257805/1.jpg?2972",
@@ -28,8 +28,8 @@ export default [
 
   {
     id: 4,
-    title: "",
-    category: "",
+    title: "Lucas Swatch Luxury",
+    category: "Fashion",
     price: 20.99,
     img: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/767018/1.jpg?7220",
     desc: "With symbolic accessories to express. This gold and black waterproof calendar quartz watch is very suitable for social and business activities. Black panel presents the design of luxury fashion watch. Its excellent quality design makes it suitable for all occasions. It's made of high quality steel because it's worth it. Buy now and stay fashionable.",
@@ -37,11 +37,11 @@ export default [
 
   {
     id: 5,
-    title: "ENS Smart Unisex Classic Sneakers - Grey",
+    title: "ENS Smart Unisex Classic Sneakers",
     category: "Men Wears",
     price: 109.9,
     img: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/12/925903/1.jpg?5777",
-    desc: "",
+    desc: "Listen to your favourite radio, CDs or wirelessly stream music with the JVC UX-D221B Wireless Micro Hi-Fi System. This classic setup of a central unit with two bookshelf speakers allows you to place your Hi-Fi system wherever you want, with speakers close by or further away.",
   },
 
   {
@@ -50,7 +50,7 @@ export default [
     category: "Electronics",
     price: 45.09,
     img: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/32/794608/1.jpg?4584",
-    desc: "",
+    desc: "Listen to your favourite radio, CDs or wirelessly stream music with the JVC UX-D221B Wireless Micro Hi-Fi System. This classic setup of a central unit with two bookshelf speakers allows you to place your Hi-Fi system wherever you want, with speakers close by or further away.",
   },
 
   {
