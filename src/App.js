@@ -7,9 +7,13 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
+//Function to filter unique item
+const allCategories = ["all", ...new Set(Data.map((item) => item.category))];
+console.log(allCategories);
+
 function App() {
   const [menuItems, setMenuItem] = useState(Data);
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState(allCategories);
 
   const filterItems = (category) => {
     if (category === "all") {
@@ -23,7 +27,7 @@ function App() {
   return (
     <main>
       <section>
-        <Categories filterItems={filterItems} />
+        <Categories categories={categories} filterItems={filterItems} />
         <Menu menuItems={menuItems} />
       </section>
     </main>
