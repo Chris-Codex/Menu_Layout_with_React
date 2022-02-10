@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 //Function to filter unique item
-const allCategories = ["all", ...new Set(Data.map((item) => item.category))];
+const allCategories = ["All", ...new Set(Data.map((item) => item.category))];
 console.log(allCategories);
 
 function App() {
