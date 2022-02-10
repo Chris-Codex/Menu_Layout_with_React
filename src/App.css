@@ -18,3 +18,10 @@
   font-size: 14px;
   margin-top: -5px;
 }
+
+.photos {
+  border-color: #e3b20b;
+  height: 200px;
+  width: 250px;
+  border-radius: 10%;
+}
