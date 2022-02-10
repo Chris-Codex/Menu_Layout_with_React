@@ -2,7 +2,7 @@ import React from "react";
 
 const Menu = ({ menuItems }) => {
   return (
-    <div className="container menu-container">
+    <div className="container menu-containers">
       <div className="row">
         {menuItems.map((menus) => {
           const { id, title, price, img, desc } = menus;
