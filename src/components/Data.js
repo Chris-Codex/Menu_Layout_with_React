@@ -54,11 +54,20 @@ export default [
   },
 
   {
-    id: 1,
+    id: 7,
     title: "K2 Bluetooth Wireless Earphone Earbuds",
     category: "Electronics",
     price: 10.23,
     img: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/360557/1.jpg?4705",
     desc: "Bluetooth V5.0, support most Bluetooth devices   2. 3500mAh charging box can be an emergency tool, charge mobile phone, tablet or other devices.   3. with IPX3 waterproof technology, no need to worry about water and sweat anymore   4. dual 8mm drive units, enjoy 9D deep bass music sound, delivers truly authentic sound and powerful bass performance,",
+  },
+
+  {
+    id: 8,
+    title: "Composite Bin",
+    category: "Kitchen",
+    price: 23.76,
+    img: "https://dunnes.btxmedia.com/pws/client/images/catalogue/products/7812343/zoom/400/7812343_mink_1.jpg",
+    desc: " Sturdy in design, this compost bin features a carry handle and a simple lid. Perfect for your garden.",
   },
 ];

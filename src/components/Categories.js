@@ -29,6 +29,14 @@ const Categories = ({ filterItems }) => {
         >
           Fashion
         </button>
+        <button
+          type="button"
+          style={{ color: "#e3b20b" }}
+          class="btn"
+          onClick={() => filterItems("Kitchen")}
+        >
+          Kitchen Accessories
+        </button>
       </div>
     </div>
   );
