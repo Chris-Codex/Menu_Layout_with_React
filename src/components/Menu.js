@@ -1,12 +1,9 @@
 import React from "react";
-import NavBar from "./NavBar";
 
 const Menu = ({ menuItems }) => {
   return (
     <div className="container menu-container">
       <div className="row">
-        <h2 className="our-menu">Our Menu</h2>
-        <NavBar />
         {menuItems.map((menus) => {
           const { id, title, price, img, desc } = menus;
           return (
@@ -20,7 +17,7 @@ const Menu = ({ menuItems }) => {
                     <h5>
                       {title}
                       <p style={{ float: "right", color: "#e3b20b" }}>
-                        {price}
+                        ${price}
                       </p>
                     </h5>
                     <hr className="horizontal" />

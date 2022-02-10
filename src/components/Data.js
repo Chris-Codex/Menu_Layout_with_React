@@ -11,7 +11,7 @@ export default [
   {
     id: 2,
     title: "Printed Hoodie Black",
-    category: "Men Clothing",
+    category: "Fashion",
     price: 202.0,
     img: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/257805/1.jpg?2972",
     desc: "Our Hoodies are made for extreme Comfort, fitted with pristine precision and finely crafted with the highest quality fabric. With these Hoodies, you do not only feel the difference in fitting and comfort but also have access to a wide range of style purposes. These Hoodies can be worn for different days in a plethora of ways. Joneswears now has a history of creating functional yet stylish street-wear, covering everything from retro styles to forward-thinking pieces.Joneswears is a fast growing urbane clothier makes the best wardrobe for that awesome transition from corporate wears.With our fun and talking Tees, you do more than just look good, you make a statement.",
@@ -29,7 +29,7 @@ export default [
   {
     id: 4,
     title: "Lucas Swatch Luxury",
-    category: "Fashion",
+    category: "Electronics",
     price: 20.99,
     img: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/767018/1.jpg?7220",
     desc: "With symbolic accessories to express. This gold and black waterproof calendar quartz watch is very suitable for social and business activities. Black panel presents the design of luxury fashion watch. Its excellent quality design makes it suitable for all occasions. It's made of high quality steel because it's worth it. Buy now and stay fashionable.",
@@ -38,7 +38,7 @@ export default [
   {
     id: 5,
     title: "ENS Smart Unisex Classic Sneakers",
-    category: "Men Wears",
+    category: "Fashion",
     price: 109.9,
     img: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/12/925903/1.jpg?5777",
     desc: "Listen to your favourite radio, CDs or wirelessly stream music with the JVC UX-D221B Wireless Micro Hi-Fi System. This classic setup of a central unit with two bookshelf speakers allows you to place your Hi-Fi system wherever you want, with speakers close by or further away.",

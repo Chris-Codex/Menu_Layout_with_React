@@ -11,14 +11,19 @@ function App() {
   const [menuItems, setMenuItem] = useState(Data);
   const [categories, setCategories] = useState([]);
 
+  const filterItems = (category) => {
+    if (category === "all") {
+      setMenuItem(Data);
+      return;
+    }
+    const newItems = Data.filter((items) => items.category === category);
+    setMenuItem(newItems);
+  };
+
   return (
     <main>
       <section>
-        <div className="title">
-          <h2>Our Menu</h2>
-          <div className="underline"></div>
-        </div>
-        <Categories />
+        <Categories filterItems={filterItems} />
         <Menu menuItems={menuItems} />
       </section>
     </main>
